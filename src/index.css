@@ -17,4 +17,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0
   color: white;
   padding: 20px;
 }
-
+.header-image{
+  height: 100%;
+  margin-right: 6px;
+}
+.header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.header-project{
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-left:auto;
+}
