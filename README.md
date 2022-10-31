@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Done+using+react🤝;Project+to+practise;props+and+managing+state;Component+rendering;state+lifecycle)](https://git.io/typing-svg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
