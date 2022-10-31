@@ -26,7 +26,40 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0
   font-weight: 600;
 }
 .header-project{
+  color: black;
   font-size: 0.75rem;
   font-weight: 400;
   margin-left:auto;
+}
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 20px;
+}
+.meme-form{
+  display:grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  gap: 15px;
+}
+.meme-button{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  color: white;
+  grid-column: 1/-1;
+  border-bottom: 5px solid blue;
+  border-radius: 5px;
+  transition: transform .5s ease;
+} 
+.meme-button:hover{
+  transform: scale(1.2);
+  text-transform: uppercase;
+}
+.meme-input{
+  background-color: black;
+  color: white;
+  font: size 20px;
+  font-weight:400px ;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }
